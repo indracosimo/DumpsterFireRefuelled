@@ -17,7 +17,6 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -53,27 +52,24 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -83,7 +79,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -97,7 +93,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -106,10 +102,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/Dependencies/include;$(SolutionDir)/Dependencies/imgui_docking;$(SolutionDir)/Dependencies/entt;$(SolutionDir)/core;$(SolutionDir)/graphics;$(SolutionDir)/shaders;$(SolutionDir)/physics;$(SolutionDir)/Dependencies/imgui_docking/backends/;$(SolutionDir)/src/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/Dependencies/lib/;$(SolutionDir)/Dependencies/imgui_docking/;$(SolutionDir)/Dependencies/entt;$(SolutionDir)/Dependencies/imgui_docking/backends/imgui_impl_glfw.h;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -120,14 +121,90 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/Dependencies/include;$(SolutionDir)/Dependencies/imgui_docking;$(SolutionDir)/Dependencies/entt;$(SolutionDir)/core;$(SolutionDir)/graphics;$(SolutionDir)/shaders;$(SolutionDir)/physics;$(SolutionDir)/Dependencies/imgui_docking/backends/;$(SolutionDir)/src/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/Dependencies/lib/;$(SolutionDir)/Dependencies/imgui_docking/;$(SolutionDir)/Dependencies/entt;$(SolutionDir)/Dependencies/imgui_docking/backends/imgui_impl_glfw.h;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MemoryChecker.cpp" />
+    <ClCompile Include="src\MeshManager.cpp" />
+    <ClCompile Include="src\MessageManager.cpp" />
+    <ClCompile Include="src\MessageQueue.cpp" />
+    <ClCompile Include="src\core\application.cpp" />
+    <ClCompile Include="src\core\camera.cpp" />
+    <ClCompile Include="src\core\stb_image.cpp" />
+    <ClCompile Include="src\game\BehaviorSystem.cpp" />
+    <ClCompile Include="src\game\PlayerControllerBehavior.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\graphics\geometry.cpp" />
+    <ClCompile Include="src\graphics\objectLoader.cpp" />
+    <ClCompile Include="src\graphics\renderer.cpp" />
+    <ClCompile Include="src\graphics\textureLoader.cpp" />
+    <ClCompile Include="src\input\input.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\physics\physicsManager.cpp" />
+    <ClCompile Include="src\serialization\jsonAdapters.cpp" />
+    <ClCompile Include="src\serialization\LevelBridge.cpp" />
+    <ClCompile Include="src\serialization\level_IO.cpp" />
+    <ClCompile Include="src\shaders\BasicShadowMapper.cpp" />
+    <ClCompile Include="src\shaders\LightManager.cpp" />
+    <ClCompile Include="src\shaders\ShadowMapper.cpp" />
+    <ClCompile Include="src\ui\uiManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MemoryChecker.h" />
+    <ClInclude Include="src\MeshManager.h" />
+    <ClInclude Include="src\MessageManager.h" />
+    <ClInclude Include="src\MessageQueue.h" />
+    <ClInclude Include="src\core\application.h" />
+    <ClInclude Include="src\core\camera.h" />
+    <ClInclude Include="src\core\config.h" />
+    <ClInclude Include="src\core\EditorState.h" />
+    <ClInclude Include="src\DebugLogger.h" />
+    <ClInclude Include="src\game\BehaviorSystem.h" />
+    <ClInclude Include="src\game\GameBehavior.h" />
+    <ClInclude Include="src\game\GameBehaviorContext.h" />
+    <ClInclude Include="src\game\PlayerControllerBehavior.h" />
+    <ClInclude Include="src\game\StageManager.h" />
+    <ClInclude Include="src\graphics\geometry.h" />
+    <ClInclude Include="src\graphics\objectLoader.h" />
+    <ClInclude Include="src\graphics\renderer.h" />
+    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\graphics\textureLoader.h" />
+    <ClInclude Include="src\input\input.h" />
+    <ClInclude Include="src\physics\physicsAABB.h" />
+    <ClInclude Include="src\physics\physicsManager.h" />
+    <ClInclude Include="src\serialization\jsonAdapters.h" />
+    <ClInclude Include="src\serialization\LevelBridge.h" />
+    <ClInclude Include="src\serialization\LevelTypes.h" />
+    <ClInclude Include="src\serialization\level_IO.h" />
+    <ClInclude Include="src\shaders\BasicShadowMapper.h" />
+    <ClInclude Include="src\shaders\light.h" />
+    <ClInclude Include="src\shaders\LightManager.h" />
+    <ClInclude Include="src\shaders\shader.h" />
+    <ClInclude Include="src\shaders\ShadowMapper.h" />
+    <ClInclude Include="src\ui\uiManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="imgui.ini" />
+    <None Include="README.md" />
+    <None Include="src\shaders\fragmentShader.fs" />
+    <None Include="src\shaders\shadow_Depth.fs" />
+    <None Include="src\shaders\shadow_Depth.vs" />
+    <None Include="src\shaders\vertexShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Read_Me.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
