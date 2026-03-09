@@ -1,0 +1,118 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# BUILD DIRECTORIES
+
+build/
+bin/
+obj/
+out/
+dist/
+Debug/
+Release/
+x64/
+x86/
+*.pdb
+*.ilk
+
+
+# IDE / EDITOR FILES
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+*.pbxproj
+
+
+
+# CMAKE FILES
+
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+
+
+# IMGUi FILES
+
+imgui.ini
+
+
+
+# OS / SYSTEM FILES
+
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+
+# LOGS & TEMP FILES
+
+
+*.log
+*.tmp
+*.temp
+*.cache
+
+
+# SHADER CACHE
+
+
+*.spv
+
+
+# PYTHON
+
+
+__pycache__/
+*.pyc
+venv/

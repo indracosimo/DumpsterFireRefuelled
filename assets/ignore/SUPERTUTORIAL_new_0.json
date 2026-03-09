@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Floor",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          1.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "WallLeft",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          -4.0,
+          4.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.10000000149011612,
+          8.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Player",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          4.262449264526367,
+          3.099100112915039,
+          -0.2109341025352478
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Platform1",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          4.5,
+          2.0999999046325684,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          5.5,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Nameless Cube 4",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          11.100000381469727,
+          3.299999952316284,
+          -1.2000000476837158
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          5.199999809265137,
+          1.0,
+          13.300000190734863
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "SUPERTUTORIAL",
+  "version": 1
+}

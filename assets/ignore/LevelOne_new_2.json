@@ -1,0 +1,286 @@
+{
+  "entities": [
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Floor",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          1.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallRight",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          4.0,
+          4.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          8.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallTop",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          4.0,
+          -4.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          8.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": true,
+      "collisionType": "PLAYER",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Player",
+      "specularMapPath": "",
+      "texturePath": "assets/images/coolspot.png",
+      "transform": {
+        "pos": [
+          0.0,
+          1.7000000476837158,
+          1.5
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallBottom",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          4.0,
+          4.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          8.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallLeft",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          -4.0,
+          4.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          8.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "LittlePiller",
+      "specularMapPath": "",
+      "texturePath": "assets/images/brick2.jpg",
+      "transform": {
+        "pos": [
+          2.700000047683716,
+          1.5,
+          0.6000000238418579
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          7.599999904632568
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Piller",
+      "specularMapPath": "",
+      "texturePath": "assets/images/brick2.jpg",
+      "transform": {
+        "pos": [
+          -3.0,
+          0.6000000238418579,
+          2.0999999046325684
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          3.700000047683716,
+          4.900000095367432,
+          3.4000000953674316
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "TopShelf",
+      "specularMapPath": "",
+      "texturePath": "assets/images/brick2.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          6.0,
+          -3.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          7.0,
+          0.10000000149011612,
+          2.799999952316284
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "LongPlatform",
+      "specularMapPath": "",
+      "texturePath": "assets/images/brick2.jpg",
+      "transform": {
+        "pos": [
+          -3.299999952316284,
+          5.699999809265137,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          7.599999904632568,
+          0.4000000059604645,
+          0.699999988079071
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "SuperLevelOne",
+  "version": 1
+}

@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Floor",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          1.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallRight",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          4.0,
+          4.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          8.0,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "WallTop",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          4.0,
+          -4.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          8.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": true,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Player",
+      "specularMapPath": "",
+      "texturePath": "assets/images/coolspot.png",
+      "transform": {
+        "pos": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "LevelOne",
+  "version": 1
+}

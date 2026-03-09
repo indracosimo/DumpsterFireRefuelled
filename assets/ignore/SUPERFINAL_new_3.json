@@ -1,0 +1,695 @@
+{
+  "camera": {
+    "orientation": [
+      0.0018867808394134045,
+      -0.9730589985847473,
+      -0.23061272501945496
+    ],
+    "position": [
+      -0.017110556364059448,
+      7.747530937194824,
+      1.729466199874878
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "entities": [
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1Floor",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.0,
+          0.10000000149011612,
+          4.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1WallRight",
+      "specularMapPath": "",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          2.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          8.0,
+          4.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1WallLeft",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          8.0,
+          4.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1WallTop",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          -2.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.0,
+          8.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1WallBottom",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          2.4000000953674316
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.0,
+          8.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": true,
+      "collisionType": "COIN",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level1Coin",
+      "specularMapPath": "",
+      "texturePath": "assets/images/COIN.jpeg",
+      "transform": {
+        "pos": [
+          -1.3817238807678223,
+          0.2992312014102936,
+          -1.0898480415344238
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": true,
+      "collisionType": "PLAYER",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Player",
+      "specularMapPath": "",
+      "texturePath": "assets/images/coolspot.png",
+      "transform": {
+        "pos": [
+          0.0,
+          1.9982311725616455,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2Floor",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          50.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          1.0,
+          6.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": false,
+      "collisionType": "COIN",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2Coin",
+      "specularMapPath": "",
+      "texturePath": "assets/images/COIN.jpeg",
+      "transform": {
+        "pos": [
+          53.606502532958984,
+          5.144827365875244,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3Floor",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          100.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          16.0,
+          1.0,
+          6.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": false,
+      "bUseGravity": false,
+      "collisionType": "COIN",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3Coin",
+      "specularMapPath": "",
+      "texturePath": "assets/images/COIN.jpeg",
+      "transform": {
+        "pos": [
+          100.49600219726563,
+          5.499000072479248,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2TopWall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          50.0,
+          1.100000023841858,
+          -1.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          8.0,
+          26.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2RightWall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          55.0,
+          2.0999999046325684,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          26.0,
+          6.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2LeftWall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          46.0,
+          1.5,
+          0.30000001192092896
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          40.0,
+          16.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2PlatformCoin",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          53.599998474121094,
+          2.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          5.199999809265137,
+          8.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2FakePlatform",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          53.0,
+          2.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.899999976158142,
+          3.0999999046325684,
+          7.900000095367432
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2PlatformForBigJump",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          46.70000076293945,
+          0.699999988079071,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          3.0999999046325684,
+          4.300000190734863,
+          18.399999618530273
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2HelpfulPlatform",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          50.0,
+          4.5,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.5,
+          0.10000000149011612,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3WallTop",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          100.0,
+          2.0,
+          -2.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          21.700000762939453,
+          48.400001525878906,
+          0.10000000149011612
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3WallRight",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          106.5999984741211,
+          1.7000000476837158,
+          3.9000000953674316
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.10000000149011612,
+          151.3000030517578,
+          14.5
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level2Safetywall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          49.400001525878906,
+          -0.6000000238418579,
+          3.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          6.400000095367432,
+          2.799999952316284,
+          0.10000000149011612
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3SafetyWall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          100.0,
+          0.4000000059604645,
+          3.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          16.899999618530273,
+          1.2999999523162842,
+          0.10000000149011612
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Level3LeftWall",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          92.19999694824219,
+          2.0999999046325684,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.10000000149011612,
+          49.599998474121094,
+          9.699999809265137
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "bIsKinematic": true,
+      "bUseGravity": false,
+      "collisionType": "OBSTACLE",
+      "mass": 1.0,
+      "meshPath": "",
+      "name": "Nameless Cube 23",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          105.0999984741211,
+          3.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.599999904632568,
+          0.10000000149011612,
+          5.5
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "FinalBuild",
+  "version": 1
+}

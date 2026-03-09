@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Floor",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          -1.5,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          14.800000190734863,
+          0.10000000149011612,
+          16.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Player",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          -0.0854470431804657,
+          0.4780207872390747,
+          1.7632787227630615
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "PlayerLevel",
+  "version": 1
+}

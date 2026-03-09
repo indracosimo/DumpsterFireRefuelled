@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Floater",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          1.7999999523162842,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    },
+    {
+      "collisionType": "OBSTACLE",
+      "meshPath": "",
+      "name": "Ground",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          -2.700000047683716,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          1.780235767364502,
+          0.0
+        ],
+        "scale": [
+          35.79999923706055,
+          0.10000000149011612,
+          83.5
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "TestLevel",
+  "version": 1
+}

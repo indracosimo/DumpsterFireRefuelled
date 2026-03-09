@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "meshPath": "",
+      "name": "Nameless Cube 0",
+      "specularMapPath": "assets/images/bricks.png",
+      "texturePath": "assets/images/concrete.jpg",
+      "transform": {
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotRad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "type": "Cube"
+    }
+  ],
+  "levelName": "secondtest",
+  "version": 1
+}
