@@ -222,7 +222,7 @@ void application::Run()
     ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
     ImGui::SetNextWindowSize(ImVec2(300, 200), ImGuiCond_FirstUseEver);
 
-#pragma region Debug
+#pragma region Runtime
     if (ImGui::Begin("Runtime/Editor"))
     { // Play/Edit toggle
 

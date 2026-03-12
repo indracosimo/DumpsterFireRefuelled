@@ -4,17 +4,6 @@
 
 namespace dataFrame::serialize
 {
-    // void to_json(json& j, const glm::vec3& vec)
-    // {
-    //     j = json::array({vec.x, vec.y, vec.z});
-    // }
-    //
-    // void from_json(const json& j, glm::vec3& vec)
-    // {
-    //     vec.x = j.at(0).get<float>();
-    //     vec.y = j.at(1).get<float>();
-    //     vec.z = j.at(2).get<float>();
-    // }
     void to_json(json& j, const TransformData& transform)
     {
         j = json
@@ -32,22 +21,6 @@ namespace dataFrame::serialize
         transform.scale    = j.value("scale", glm::vec3(1.0f));
     }
 
-    // void to_json(json& j, const TransformData& transform)
-    // {
-    //     j = json
-    //     {
-    //             {"Position", transform.position},
-    //             {"rotRad", transform.rotRad},
-    //             {"Scale", transform.scale}
-    //     };
-    // }
-    //
-    // void from_json(const json& j, TransformData& transform)
-    // {
-    //     transform.position = j.value("Position", glm::vec3(0.0f));
-    //     transform.rotRad = j.value("rotRad", glm::vec3(0.0f));
-    //     transform.scale = j.value("Scale", glm::vec3(1.0f));
-    // }
 
     void to_json(json& j, const CubeEntityData& entity)
     {

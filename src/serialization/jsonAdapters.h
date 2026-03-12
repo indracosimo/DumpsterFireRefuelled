@@ -26,10 +26,7 @@ namespace nlohmann
 namespace dataFrame::serialize
 {
     using nlohmann::json;
-
-    // void to_json(json& j, const glm::vec3& vec);
-    // void from_json(const json& j, glm::vec3& vec);
-
+    
     void to_json(json& j, const TransformData& transform);
     void from_json(const json& j, TransformData& transform);
 
