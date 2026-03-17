@@ -245,7 +245,7 @@ namespace Physics
         
         if (is1Kinematic && is2Kinematic) return;
     
-        float separationAmount = info.contactDepth + 0.001f; 
+        //float separationAmount = info.contactDepth + 0.001f; 
     
         if (is1Kinematic && !is2Kinematic)
         {

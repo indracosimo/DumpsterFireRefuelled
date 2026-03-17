@@ -129,8 +129,8 @@ void application::Run()
     gameBehaviorContext.cubes = &cubes;
     gameBehaviorContext.physics = &physicsManager;
 
-    std::string levelPath = "assets/levels/CoolSpot.json";
-    std::string levelName = "CoolSpot";
+    std::string levelPath = "assets/levels/HubWorldUpdate.json";
+    std::string levelName = "HubWorld";
 
     StageManager stageManager;
 
